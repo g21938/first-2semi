@@ -49,7 +49,8 @@ function drawFundDomain2(x,y){
     scale(1,1)
     drawFundDomain();
     scale(1,1)
-
+	
+    //回転中心を正三角形の中心から正三角形の左下の頂点へ移動できないので、正六角形をかけない。
     //translate(x+1/2,y-sqrt(3)/6);
 }
 
